@@ -11,6 +11,7 @@ export function Home() {
             <img
               className="img-principal"
               src="../images/imagemprincipal.jpg"
+              alt="imagem principal"
             />
             <div className="resumo">
               <h2>MedMaps</h2>
@@ -75,7 +76,7 @@ export function Home() {
           <div className="hospitais-proximos" id="hospitaisid">
             <div className="hospitais">
               <div className="hospitais-img">
-                <img src="../images/HospitalVitoriaAnaliaFranco.jpg" alt="" />
+                <img src="../images/HospitalVitoriaAnaliaFranco.jpg" alt="hospital" />
               </div>
               <div className="hospitais-texto">
                 <h1>Hospital e Maternidade Vitória - Anália Franco</h1>
@@ -93,7 +94,7 @@ export function Home() {
             </div>
             <div className="hospitais">
               <div className="hospitais-img">
-                <img src="../images/HospitalSantaIsabel.jpg" alt="" />
+                <img src="../images/HospitalSantaIsabel.jpg" alt="hospital 1" />
               </div>
               <div className="hospitais-texto">
                 <h1>Hospital Santa Isabel</h1>
@@ -111,7 +112,7 @@ export function Home() {
             </div>
             <div className="hospitais">
               <div className="hospitais-img">
-                <img src="../images/HospitalSantaPaula.jpg" alt="" />
+                <img src="../images/HospitalSantaPaula.jpg" alt="hospital 2" />
               </div>
               <div className="hospitais-texto">
                 <h1>Hospital Santa Paula</h1>
