@@ -7,9 +7,24 @@ export function Login() {
   const [inputUser, setInputUser] = useState("");
   const [inputPassword, setInputPassword] = useState("");
 
+  const handleLogin = (e) => {
+    e.preventDefault(); // Evita o comportamento padrão do formulário (recarregar a página)
+    
+    if (
+      inputUser === data.contas[0].user &&
+      inputPassword === data.contas[0].password
+    ) {
+      // Redireciona para "/home" se as credenciais estiverem corretas
+      window.location.href = "/home";
+    } else {
+      // Lógica de tratamento para credenciais inválidas (pode exibir uma mensagem de erro, por exemplo)
+      console.log("Credenciais inválidas");
+    }
+  };
+
   return (
     <section className="section-form">
-      <form>
+      <form onSubmit={handleLogin}>
         <div className="form-login">
           <div className="usuário">
             <label htmlFor="usuário">Usuário</label>
@@ -32,17 +47,8 @@ export function Login() {
             />
           </div>
           <div className="login">
-            <button onSubmit={(e) => e.preventDefault()}>
-              <a
-                href={
-                  inputUser === data.contas[0].user &&
-                  inputPassword === data.contas[0].password
-                    ? "/home"
-                    : "/"
-                }
-              >
+            <button type="submit">
                 Login
-              </a>
             </button>
           </div>
         </div>
@@ -50,3 +56,5 @@ export function Login() {
     </section>
   );
 }
+
+
