@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# MedMaps - Sistema de Gerenciamento Hospitalar
+## Global Solution - Web Development with JavaScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :memo: `Descrição do projeto` 
 
-## Available Scripts
+Nossa solução é um aplicativo inovador que permite aos usuários verificar a lotação dos hospitais em tempo real dentro de um determinado raio. Utilizando tecnologias de geolocalização, oferecemos informações detalhadas sobre a disponibilidade de leitos, ocupação e tempo de espera, capacitando os usuários a tomar decisões informadas sobre cuidados de saúde emergenciais ou planejados. Nossa aplicação visa proporcionar acesso rápido e preciso a informações vitais, contribuindo para uma melhor gestão da saúde e para a eficiência dos serviços hospitalares.
 
-In the project directory, you can run:
 
-### `npm start`
+## :seedling: `Instruções de uso`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Clone este repositório: `git clone https://github.com/Natan-TI/gs2-js`
+- Crie um projeto react: `npx create-react-app "nomeDoProjeto"`
+- Instale as dependências: `npm install react-router-dom`
+- Inicie o servidor de desenvolvimento: `npm start`
+- Acesse o aplicativo no navegador: http://localhost:3000
+- <b>Para fazer login, é necessário usar as credenciais "admin" no campo login e senha.</b>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## :books: `Funcionalidades Principais` 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Login
+* <b>Arquivo</b>: login.jsx
+* <b>Descrição</b>: Página de login onde os usuários podem inserir suas credenciais para acessar o aplicativo.
+* <b>Funcionalidades</b>:
+    * Captura de dados de entrada do usuário (usuário e senha).
+    * Verificação das credenciais fornecidas com os dados da API.
+    * Redirecionamento para a página inicial (/home) após o login bem-sucedido.
+### 2. Página Inicial
+* <b>Arquivo</b>: home.jsx
+* <b>Descrição</b>: Interface principal que fornece uma visão geral do aplicativo e das informações sobre os hospitais.
+* <b>Funcionalidades</b>:
+    * Apresentação do resumo do aplicativo e seus recursos.
+    * Detalhes sobre o propósito e funcionamento do MedMaps.
+    * Exibição de informações sobre hospitais próximos, incluindo lotação e planos de saúde aceitos.
+### 3. Cabeçalho Navegacional
+* <b>Arquivo</b>: header.jsx
+* <b>Descrição</b>: Componente de navegação no topo de cada página.
+* <b>Funcionalidades</b>:
+    * Exibição do logo e menu de navegação.
+    * Links para seções importantes como informações sobre o aplicativo e lista de hospitais.
+    * Opção de logout para encerrar a sessão do usuário.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :handshake: `Colaboradores`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<table>
+  <tr>
+    <td align="center">
+        <sub>
+          <b>Kayky Paschoal Ribeiro - RM99929</b>
+          <br>
+        </sub>
+        <sub>
+          <b>Natan Eguchi dos Santos - RM98720</b>
+          <br>
+        </sub>
+    </td>
+  </tr>
+</table>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :dart: `Status do projeto`
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Em desenvolvimento :hourglass_flowing_sand:
