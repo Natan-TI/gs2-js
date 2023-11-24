@@ -1,6 +1,10 @@
 # MedMaps - Sistema de Gerenciamento Hospitalar
 ## Global Solution - Web Development with JavaScript
 
+## :link: `Links`
+* Github: https://github.com/Natan-TI/gs2-js
+* Deploy do site: https://medmaps.netlify.app/
+
 ## :memo: `Descrição do projeto` 
 
 Nossa solução é um aplicativo inovador que permite aos usuários verificar a lotação dos hospitais em tempo real dentro de um determinado raio. Utilizando tecnologias de geolocalização, oferecemos informações detalhadas sobre a disponibilidade de leitos, ocupação e tempo de espera, capacitando os usuários a tomar decisões informadas sobre cuidados de saúde emergenciais ou planejados. Nossa aplicação visa proporcionar acesso rápido e preciso a informações vitais, contribuindo para uma melhor gestão da saúde e para a eficiência dos serviços hospitalares.
