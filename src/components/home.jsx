@@ -21,7 +21,7 @@ export function Home() {
                 de saúde, simplificando a busca por cuidados de saúde.
               </p>
             </div>
-            <a href="#">Mais Informações</a>
+            <a href="#hospitaisid">Mais Informações</a>
           </div>
           <div className="informacoes" id="informacoesid">
             <aside>

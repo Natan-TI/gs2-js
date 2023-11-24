@@ -9,11 +9,10 @@ Nossa solução é um aplicativo inovador que permite aos usuários verificar a 
 ## :seedling: `Instruções de uso`
 
 - Clone este repositório: `git clone https://github.com/Natan-TI/gs2-js`
-- Crie um projeto react: `npx create-react-app "nomeDoProjeto"`
-- Instale as dependências: `npm install react-router-dom`
+- Instale as dependências: `npm install`
 - Inicie o servidor de desenvolvimento: `npm start`
 - Acesse o aplicativo no navegador: http://localhost:3000
-- <b>Para fazer login, é necessário usar as credenciais "admin" no campo login e senha.</b>
+- <b>Para fazer login, é necessário usar as credenciais "admin" no campo login e senha e pressionar o botão "Login".</b>
 
 
 ## :books: `Funcionalidades Principais` 

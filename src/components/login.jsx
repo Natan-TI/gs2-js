@@ -38,7 +38,7 @@ export function Login() {
                   inputUser === data.contas[0].user &&
                   inputPassword === data.contas[0].password
                     ? "/home"
-                    : "#"
+                    : "/"
                 }
               >
                 Login
