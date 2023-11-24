@@ -1,11 +1,13 @@
 import "../scss/login.scss";
 
 import data from "../API/api.json";
+import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 export function Login() {
   const [inputUser, setInputUser] = useState("");
   const [inputPassword, setInputPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault(); // Evita o comportamento padrão do formulário (recarregar a página)
@@ -14,8 +16,8 @@ export function Login() {
       inputUser === data.contas[0].user &&
       inputPassword === data.contas[0].password
     ) {
-      // Redireciona para "/home" se as credenciais estiverem corretas
-      window.location.href = "/home";
+      // Navigate para redirecionar após o login
+      navigate("/home");
     } else {
       // Lógica de tratamento para credenciais inválidas (pode exibir uma mensagem de erro, por exemplo)
       console.log("Credenciais inválidas");
