@@ -10,16 +10,14 @@ export function Login() {
   const navigate = useNavigate();
 
   const handleLogin = (e) => {
-    e.preventDefault(); // Evita o comportamento padrão do formulário (recarregar a página)
+    e.preventDefault(); 
     
     if (
       inputUser === data.contas[0].user &&
       inputPassword === data.contas[0].password
     ) {
-      // Navigate para redirecionar após o login
       navigate("/home");
     } else {
-      // Lógica de tratamento para credenciais inválidas (pode exibir uma mensagem de erro, por exemplo)
       console.log("Credenciais inválidas");
     }
   };
